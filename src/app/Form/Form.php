@@ -16,7 +16,6 @@ class Form implements FormInterface
         $this->method = $method;
     }   
 
-
     public function addElement(FormFieldInterface $field)
     {
         $this->elements[] = $field;
